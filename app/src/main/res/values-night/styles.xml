@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="android:Theme.Material.NoActionBar" />
+
+    <color name="status_on">#81C784</color>
+    <color name="status_off">#EF9A9A</color>
+</resources>
