@@ -3,6 +3,9 @@
 Instagram **Reels** va YouTube **Shorts** ni bloklaydigan shaxsiy Android ilova.
 Ilovalarning qolgan qismi (lenta, DM, oddiy videolar, qidiruv) odatdagidek ishlaydi.
 
+Qo'shimcha: TikTok'ni butunlay bloklash (ixtiyoriy), 5/15 daqiqalik pauza va
+necha marta bloklangani hisobi (bugun / jami).
+
 ## Qanday ishlaydi
 
 Ilova Android'ning «Maxsus imkoniyatlar» (Accessibility) xizmatidan foydalanadi.

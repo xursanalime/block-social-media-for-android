@@ -6,5 +6,5 @@
     android:canRetrieveWindowContent="true"
     android:description="@string/service_description"
     android:notificationTimeout="150"
-    android:packageNames="com.instagram.android,com.google.android.youtube"
+    android:packageNames="com.instagram.android,com.google.android.youtube,com.zhiliaoapp.musically,com.ss.android.ugc.trill,com.zhiliaoapp.musically.go"
     android:settingsActivity="app.reelsblock.MainActivity" />

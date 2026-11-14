@@ -4,9 +4,17 @@
     <string name="service_description">Instagram Reels va YouTube Shorts ochilganda avtomatik ravishda orqaga qaytaradi. Ekrandagi matnlar hech qayerga yuborilmaydi va saqlanmaydi.</string>
     <string name="status_on">● Bloklash yoqilgan</string>
     <string name="status_off">● Bloklash o\'chiq — xizmatni yoqing</string>
+    <string name="status_paused">● Pauza — %1$s gacha</string>
+    <string name="stats">Bugun %1$d marta bloklandi · jami %2$d</string>
     <string name="open_settings">Maxsus imkoniyatlar sozlamalarini ochish</string>
     <string name="settings_hint">Sozlamalarda «O\'rnatilgan ilovalar» ichidan ReelsBlock ni tanlab yoqing. Agar «Cheklangan sozlama» deb chiqsa: Sozlamalar → Ilovalar → ReelsBlock → ⋮ → «Cheklangan sozlamalarga ruxsat berish».</string>
+    <string name="pause_5">5 daqiqa pauza</string>
+    <string name="pause_15">15 daqiqa pauza</string>
+    <string name="resume">Bloklashni davom ettirish</string>
+    <string name="section_parts">ILOVA ICHIDAGI BO\'LIMLAR</string>
+    <string name="section_whole">ILOVANI BUTUNLAY BLOKLASH</string>
     <string name="block_instagram_reels">Instagram Reels</string>
     <string name="block_youtube_shorts">YouTube Shorts</string>
-    <string name="blocked_toast">Bloklandi</string>
+    <string name="block_tiktok">TikTok</string>
+    <string name="blocked_toast">Bloklandi · bugun %1$d-marta</string>
 </resources>

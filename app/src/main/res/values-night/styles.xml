@@ -4,4 +4,5 @@
 
     <color name="status_on">#81C784</color>
     <color name="status_off">#EF9A9A</color>
+    <color name="status_paused">#FFB74D</color>
 </resources>

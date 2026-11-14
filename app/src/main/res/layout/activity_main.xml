@@ -24,6 +24,13 @@
             android:layout_marginTop="16dp"
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
+        <TextView
+            android:id="@+id/stats"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
         <Button
             android:id="@+id/open_settings"
             android:layout_width="match_parent"
@@ -32,17 +39,54 @@
             android:text="@string/open_settings" />
 
         <TextView
+            android:id="@+id/settings_hint"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:text="@string/settings_hint"
             android:textAppearance="?android:attr/textAppearanceSmall" />
 
+        <LinearLayout
+            android:id="@+id/pause_row"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/pause_5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/pause_5" />
+
+            <Button
+                android:id="@+id/pause_15"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/pause_15" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/resume"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/resume" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="@string/section_parts"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="bold" />
+
         <Switch
             android:id="@+id/switch_instagram"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
             android:minHeight="56dp"
             android:text="@string/block_instagram_reels"
             android:textAppearance="?android:attr/textAppearanceMedium" />
@@ -53,6 +97,22 @@
             android:layout_height="wrap_content"
             android:minHeight="56dp"
             android:text="@string/block_youtube_shorts"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/section_whole"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="bold" />
+
+        <Switch
+            android:id="@+id/switch_tiktok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="56dp"
+            android:text="@string/block_tiktok"
             android:textAppearance="?android:attr/textAppearanceMedium" />
     </LinearLayout>
 </ScrollView>
